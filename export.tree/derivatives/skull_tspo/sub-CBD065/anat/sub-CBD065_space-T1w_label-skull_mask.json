@@ -1,0 +1,9 @@
+{
+  "Type": "Mask",
+  "SpatialReference": "orig",
+  "Description": "Binary skull mask in native T1w space, derived from a pseudoCT map generated from the MPRAGE (coregistered to the PET SUV map), and thresholded at 0.13 to retain skull voxels only.",
+  "Sources": [
+    "../../../../sub-CBD065/anat/sub-CBD065_T1w.nii.gz"
+  ],
+  "RawSources": []
+}

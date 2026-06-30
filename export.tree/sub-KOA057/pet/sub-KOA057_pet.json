@@ -1,0 +1,44 @@
+{
+  "TracerName": "[11C]PBR28",
+  "TracerRadionuclide": "11C",
+  "Units": "g/mL",
+  "FrameTimesStart": [
+    3600
+  ],
+  "FrameDuration": [
+    1800
+  ],
+  "ModeOfAdministration": "bolus",
+  "Manufacturer": "Siemens",
+  "ManufacturersModelName": "Biograph_mMR",
+  "ReconMethodName": "OSEM",
+  "ReconMethodParameterLabels": [
+    "subsets",
+    "iterations"
+  ],
+  "ReconMethodParameterUnits": [
+    "none",
+    "none"
+  ],
+  "ReconMethodParameterValues": [
+    21,
+    3
+  ],
+  "ReconFilterType": [
+    "none"
+  ],
+  "ReconFilterSize": 0,
+  "AttenuationCorrection": "MR-based pseudoCT (Izquierdo-Garcia et al. 2014 method)",
+  "AcquisitionMode": "list mode",
+  "ImageDecayCorrected": true,
+  "ImageDecayCorrectionTime": 0,
+  "ScanStart": 0,
+  "InjectionStart": 0,
+  "InjectedMass": "n/a",
+  "InjectedMassUnits": "n/a",
+  "SpecificRadioactivity": "n/a",
+  "SpecificRadioactivityUnits": "n/a",
+  "InjectedRadioactivity": 545.38,
+  "InjectedRadioactivityUnits": "MBq",
+  "TimeZero": "12:29:19"
+}
