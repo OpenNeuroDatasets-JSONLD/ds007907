@@ -1,0 +1,5 @@
+{
+  "Type": "Mask",
+  "SpatialReference": "FSL MNI152 1mm standard space ($FSLDIR/data/standard/MNI152_T1_1mm.nii.gz)",
+  "Description": "Group-level skull probability template in MNI space: generated from the combined skull masks of all subjects (each subject's skull mask was separately thresholded at 0.13 on the pseudoCT image, then warped to MNI152 space), and the resulting group probability mask was thresholded at 50%, retaining only voxels present within the core of the skull region across subjects."
+}
