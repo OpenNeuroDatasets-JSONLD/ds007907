@@ -1,0 +1,9 @@
+{
+  "Type": "SUV",
+  "SpatialReference": "FSL MNI152 1mm standard space ($FSLDIR/data/standard/MNI152_T1_1mm.nii.gz)",
+  "Description": "PET SUV image nonlinearly warped to MNI152 space, masked to skull-only voxels, smoothed at 5mm FWHM.",
+  "SmoothingFWHM": 5,
+  "Sources": [
+    "../../../../sub-CLBP046/pet/sub-CLBP046_pet.nii.gz"
+  ]
+}

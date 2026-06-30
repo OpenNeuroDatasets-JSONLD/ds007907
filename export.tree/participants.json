@@ -1,0 +1,31 @@
+{
+  "participant_id": {
+    "Description": "Unique BIDS subject label"
+  },
+  "age": {
+    "Description": "Age in years at time of scan"
+  },
+  "sex": {
+    "Description": "Biological sex",
+    "Levels": {
+      "M": "Male",
+      "F": "Female"
+    }
+  },
+  "group": {
+    "Description": "Study/cohort of origin",
+    "Levels": {
+      "IGN_CLBP": "Chronic low back pain patients, IGNITE study",
+      "PBRCBD": "Chronic low back pain patients, CBD trial (pre-treatment scan)",
+      "PBRKOA_KOA": "Knee osteoarthritis patients",
+      "PBRKOA_HC": "Healthy controls"
+    }
+  },
+  "pain_hc": {
+    "Description": "Pain vs healthy-control status",
+    "Levels": {
+      "Pain": "Chronic pain patient (cLBP or KOA)",
+      "HC": "Healthy control"
+    }
+  }
+}
