@@ -1,0 +1,14 @@
+{
+  "Manufacturer": "Siemens",
+  "ManufacturersModelName": "Biograph_mMR",
+  "MagneticFieldStrength": 3,
+  "RepetitionTime": 2.53,
+  "EchoTime": [
+    0.00169,
+    0.00355,
+    0.00541,
+    0.00727
+  ],
+  "FlipAngle": 7,
+  "SliceThickness": 1
+}
